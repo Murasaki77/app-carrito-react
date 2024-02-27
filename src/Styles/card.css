@@ -1,0 +1,92 @@
+/* Estilos para la tarjeta */
+.tarjeta {
+    display: flex;
+    border: 1px solid #855858;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .tarjeta-imagen {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .tarjeta-contenido {
+    flex: 1;
+  }
+  
+  .tarjeta-titulo {
+    margin: 0;
+  }
+  
+  .tarjeta-descripcion {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .tarjeta-precio {
+    margin-top: auto;
+    font-weight: bold;
+  }
+  
+  .boton-agregar {
+    background-color: #4caf82;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .boton-agregar:hover {
+    background-color: #2acf32;
+  }
+  .boton-quitar {
+    background-color: #7e2525;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .boton-quitar:hover {
+    background-color: #ff0101;
+  }
+  
+  /* Estilos para el carrito */
+  .carrito {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  html,body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+  }
+  .selector{
+display: block;
+font-size: 16px;
+font-weight: 400;
+box-sizing: border-box;
+-webkit-appearance: none;
+color: white;
+background-color: black;
+border: none;
+padding: 3px 7px;
+border-radius: 7px;
+  }
+  .selector:hover{
+    background-color: rgb(154, 154, 154);
+  }
+  .selector:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 3px rgba(168, 177, 186, 0.7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222; 
+    outline: none;
+  }
